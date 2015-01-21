@@ -30,8 +30,8 @@ module.controller('MCQController', function ($scope, $http, $timeout) {
 		});
 
 		$scope.templates = {
-			mcq : "mcq.html",
-			ne : "ne.html"
+			mcq : "https://cdn.rawgit.com/mb-int/questions/master/mcq.html",
+			ne : "https://cdn.rawgit.com/mb-int/questions/master/ne.html"
 		}; // etc etc
 
 		// select handler *** MANUAL BINDING! must be a way of binding this with an ng-include - tried $parent but it wasn't playing nicely ***
