@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bppQuestion>
+	<metadata type="multipleChoice" id="ABC_a3_03_Q1_MCQ" name="" keywords=""/>
+	<variables>
+		<randoms></randoms>
+		<calculations></calculations>
+		<lists></lists>
+	</variables>
+	<questionTexts>
+		<stem><![CDATA[<p class="questionText">Sian was employed by Ryan for five years when her employment contract was amended. She did not verbally agree to the change, nor did she sign a new contract or a statement of the new terms and conditions. However she did work under the new conditions.<br/><br/>Has Sian consented to the variation in her contract?</p>]]></stem>
+		<instruction><![CDATA[Select your answer, then press Submit]]></instruction>
+		<explanation><![CDATA[<p class="answerText">The correct answer is: Yes.<br/><br/>Employees can indicate consent to a change in their contract by simply working under the new conditions.</p>]]></explanation>
+		<help></help>
+	</questionTexts>
+	<matches>
+	<match marks="1" allowTryAgainAfterMatch="false" correct="true">
+			<value>Yes</value>
+			<feedback>Correct.</feedback>
+		</match>
+		<match marks="0" allowTryAgainAfterMatch="true" correct="false">
+			<value>No</value>
+			<feedback>Try again or click Reveal to reveal the correct answer.</feedback>
+		</match>
+	</matches>
+	<settings possibleMarks="1" randomise="false"/>
+</bppQuestion>

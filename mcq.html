@@ -1,0 +1,26 @@
+﻿<form class="container">
+ <legend class="row span12">Multiple Choice Question {{metadata.id}}</legend>
+<div ng-bind-html-unsafe="stem" class="row span12"></div>
+<table class="row span12 table-hover button-holder">
+	<tr ng-repeat="option in options">
+		<td>
+			<label for="{{option.id}}" class="radio">
+				<input type="radio" ng-disabled="qDisabled" class="regular-radio" name="optionsRadios" id="{{option.id}}"  ng-model="$parent.optionSelected" value="{{option.value}}" ng-click="selected(option.value)" /><span ng-bind-html-unsafe="option.value"></span>
+			</label>			
+		</td>
+	</tr>
+</table>
+
+<div id="controlButtons" ng-hide="hideControlButtons" class="row span12">
+	<button id="submit" value="submit" class="btn btn-primary" ng-click="submit()">Submit <i class="icon-circle-arrow-right icon-white"></i></button>
+	<button id="submit" value="submit" class="btn" ng-click="reveal()">Reveal <i class="icon-eye-open"></i></button>
+</div>
+<div class="container row span12 vpadTop">
+	<p class="alert" ng-class="alertType" ng-hide="!alertType">
+	<span ng-class="labelClass">{{labelText}}<i ng-class="markingSymbol" ></i></span><span>&nbsp;&nbsp; {{feedback}}</span>
+</p>
+</div>
+</form>
+
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<multipleChoiceQuestion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<metadata type="multipleChoice" id="ACCA_01_00_Q1_MC" name="name" keywords="ACCA"/>
+	<variables>		
+	</variables>
+	<questionTexts>
+		<stem><![CDATA[<p class="questionText">Question stem</p>]]></stem>
+		<instruction>Make your selection and press Submit</instruction>
+		<explanation><![CDATA[<p class="answerText"><span class="answer">correct option</span>answer explanation</p>]]></explanation>
+		<help><![CDATA[<p class="helpText">]]>&lt;/p&gt;</help>
+	</questionTexts>
+	<matches>
+		<match marks="0" allowTryAgainAfterMatch="true" correct="false">
+			<value>Option 2</value>
+			<feedback>Incorrect</feedback>
+		</match>
+		<match marks="0" allowTryAgainAfterMatch="true" correct="false">
+			<value>Option 3</value>
+			<feedback>Incorrect</feedback>
+		</match>
+		<match marks="1" allowTryAgainAfterMatch="false" correct="true">
+			<value>Option 1</value>
+			<feedback>Correct.</feedback>
+		</match>
+		<match marks="0" allowTryAgainAfterMatch="true" correct="false">
+			<value>Option 4</value>
+			<feedback>Incorrect.</feedback>
+		</match>
+	</matches>
+	<settings possibleMarks="1" randomise="false" optionsMaxWidth="600"/>
+</multipleChoiceQuestion>
